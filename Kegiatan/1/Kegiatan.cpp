@@ -8,18 +8,18 @@ int pertamax(){
     cout <<"Masukkan jumlah liter : ";
     cin >>a;
     if(a == 1){
-        cout<<"Pertalite SPBU TAMAN SISWA"<<endl;
+        cout<<"Pertamax SPBU TAMAN SISWA"<<endl;
         cout<<"Jumlah Liter = "<<a<<endl;
         cout<<"Jumlah bayar = "<<harga<<endl;
     }else{
-        cout<<"Pertalite SPBU TAMAN SISWA"<<endl;
+        cout<<"Pertamax SPBU TAMAN SISWA"<<endl;
         cout<<"Jumlah Liter = "<<a<<endl;
         cout<<"Jumlah bayar = "<<harga*a<<endl;
     }
 }
 
-int pertalite(){
-    int b, harga;
+float pertalite(){
+    float b, harga;
     harga = 7000;
     cout<<"Pertalite 7000/liter"<<endl;
     cout <<"Masukkan jumlah liter : ";
